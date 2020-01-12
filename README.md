@@ -1,7 +1,7 @@
 # calc_progress.sh
 ##### usage: calc_progress.sh "[file_pattern]" [num_of_files] [update_seconds]
 #
-A simple script to track remaining files to be generated.
+A simple script to track progress of compilation or file generation in the current directory.
 [file_pattern]: File pattern regex to determine which files to observe.
 [num_of_files]:  Number of files  to be generated (if it is not known an approximate number can be given), and [update_seconds]: To be used to periodically check progress.
 
