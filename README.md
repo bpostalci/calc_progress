@@ -9,5 +9,5 @@ A simple script to track remaining files to be generated.
 Generation of object files with make command. I assume there are 2000 files to be generated. 
 ##### $shell> make &
 ##### $shell> bash calc_percentage.sh "*.o" 2000 5
-##### > 22% (440/2000)
+##### > 22% : (440/2000)
 Controls compilation progress in every 5 seconds.

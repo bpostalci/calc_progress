@@ -46,6 +46,6 @@ fi
 while true; do
 	cnt=$(find . -iname "$pattern" | wc -l)
 	percentage=$(echo "scale=$precision;($cnt/$num_of_files)*100" | bc)
-	echo -ne "%$percentage : ($cnt/$num_of_files)\r"
+	echo -ne "${percentage}% : ($cnt/$num_of_files)\r"
 	sleep "$update_secs" 
 done
